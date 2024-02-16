@@ -13,6 +13,7 @@ header{
     padding: 20px;
     justify-content: space-around;
     padding-top: 18px;
+    padding-bottom: 20px;
 }
 .logo{
     font-size: 24px;
@@ -70,14 +71,14 @@ main img{
     text-align: center;
     gap: 20px;
     background-color: #fff;
-    height: 100vh;
+    height: 50vh;
     
     
 }
 .card{
     max-width: 200px;
 
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .images{
     height: 200px;
@@ -85,4 +86,53 @@ main img{
 }
 .text{
     color: black;
+}
+.qoute{
+    height: 50vh;
+    display: flex;
+    color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+}
+address{
+    padding-left: 350px;
+}
+.signup{
+    display: flex;
+   
+    background-color: blue;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    padding: 3% 5%;
+    margin:  10% 15%;
+    border-radius: 15px;
+}
+.sign{
+    background-color: #fff;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+   
+}
+.rounded-button{
+    border:  2px solid #F9FAF8;
+    background-color: #3882F6;
+    color: #fff;
+    padding:  8px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 12px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 0%;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
 }
