@@ -64,3 +64,25 @@ main img{
     color: #fff;
     text-decoration: none;
 }
+.section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    background-color: #fff;
+    height: 100vh;
+    
+    
+}
+.card{
+    max-width: 200px;
+
+    margin-top: 20px;
+}
+.images{
+    height: 200px;
+    width: 200px;
+}
+.text{
+    color: black;
+}
